@@ -1,0 +1,2 @@
+1. The bug was that the variables `num1` and `num2` are read in as strings. When we do `result = num1 + num2;`, instead of doing arithmatic, we are actually doing string concatenation. 
+2. I fixed it by type-casting `num1` and `num2` as numbers by using the `Number()` function, as shown [here](fix.png). 
